@@ -1,0 +1,66 @@
+.carinfo2 img{
+    display: flex;
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+.h4{
+font-weight: 600px;
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+text-align: center;
+align-items: center;
+}
+
+.p{
+    font-weight: 600px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    }
+
+    .p1{
+
+        font-weight: 1000px;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        }
+
+    .btn{
+        display: flex;
+        background-color: green;
+        border: solid;
+        border-radius: 5px;
+        font-weight: 300px;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .btn:hover{
+            color: lightgreen;
+            text-decoration: none;
+        }
+
+    
+    

@@ -1,0 +1,75 @@
+.carlist{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.carinfo{
+width: 250px;
+border: solid 2px; 
+padding: 10px;
+margin: 10px;
+overflow: hidden;
+border-radius: 5px;
+border-color: transparent;
+font-size: 16px;
+transition: transform 0.5s;
+justify-content: center;
+align-items: center;
+background-color: #8e9399;
+}
+.carinfo:hover{
+transform: scale(1.05);
+border: solid;
+border-color: black;
+}
+
+.carinfo p{
+color: white;
+height: 35px;
+width: 500px;
+margin: 5px;
+text-align: justify;
+line-height: 1.5;
+font-weight: 600;
+}
+
+.carinfo h4{
+    height: 35px;
+    width: 500px;
+    margin: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+    }
+
+.carinfo img{
+max-width: 230px;
+max-height: 300px;
+justify-content: center;
+align-items: center;
+
+}
+.carimg{
+   
+    object-fit: fill;
+}
+.carinf{
+    height: 30%;
+}
+
+.search-box{
+    display: flex;
+    border: solid;
+    border-radius: 5px;
+    font-weight: 300px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
