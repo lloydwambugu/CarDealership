@@ -47,10 +47,9 @@ public Car save(Car car) {
 
 }
 
-public Car discount(Integer Id, LocalDate date){
+public String discount(Integer Id, LocalDate date){
 
-Car car 
-if(    Car car = carrepo.findById(Id).isPresent())
+return "";
 
 }
 
